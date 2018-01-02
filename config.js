@@ -6,12 +6,14 @@ exports.scanner = {
 };
 
 exports.mailer = {
-        login: "user",
-        password: "password",
-        server: "gmail.com",
-        port: 995,
-        reciever: "waze@justservice.com.ua",
+        smtp: {
+            login: "user",
+            password: "password",
+            server: "gmail.com",
+            port: 995
+        },
         message: {
+            reciever: "waze@justservice.com.ua",
             subject: "Waze SOS",
             template: "message.tpl",
             types:{

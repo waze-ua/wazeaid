@@ -1,7 +1,10 @@
 {
   "name": "wazeaid",
   "version": "0.0.1",
+  "license": "GPL-3.0",
   "dependencies": {
+    "lodash": "^4.17.4",
+    "mustache": "^2.3.0",
     "nodemailer": "^4.4.1"
   },
   "description": "Server to scan Waze for SOS signals and send emergency emails",
@@ -9,7 +12,5 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
