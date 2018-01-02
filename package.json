@@ -1,0 +1,15 @@
+{
+  "name": "wazeaid",
+  "version": "0.0.1",
+  "dependencies": {
+    "nodemailer": "^4.4.1"
+  },
+  "description": "Server to scan Waze for SOS signals and send emergency emails",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
