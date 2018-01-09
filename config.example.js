@@ -1,5 +1,9 @@
 'use strict';
 
+exports.datetime = {
+    timezone: 'Europe/Kiev'
+};
+
 exports.scanner = {
         url: "https://www.waze.com/row-rtserver/web/TGeoRSS?tk=community&atf=SOS&types=alerts&format=JSON&ma=600&mj=100&mu=100&left=23.910453&right=39.880017&bottom=46.053247&top=51.477441&_=1510071267374",
         interval: 5000, // waze polling interval
